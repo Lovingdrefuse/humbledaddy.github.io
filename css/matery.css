@@ -266,10 +266,13 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(125deg,#FD6E6A,#FFC600);  background-size: 400%;
-    animation: bganimation 15s infinite;
+    background-image: repeating-linear-gradient(45deg, #824DA7 0px,#FF4D4D 0px, #FF4D4D 16.66px,#FF924D 16.66px, #FF924D 33.32px, #FFFF4D 33.32px, #FFFF4D 49.98px, #4DA54E 49.98px, #4DA54E 66.64px, #00C1C0 66.64px, #00C1C0 83.3px,#4D4CFF 83.3px, #4D4CFF 100px, #824DA7 100px ,#824DA7 116.66px,#FF4D4D 116.66px);  background-size: 200%;
+    animation: bganimation 100s infinite;
 }
-
+.bg-color-small {
+    background-image: repeating-linear-gradient(45deg, #824DA7 0px,#FF4D4D 0px, #FF4D4D 16.66px,#FF924D 16.66px, #FF924D 33.32px, #FFFF4D 33.32px, #FFFF4D 49.98px, #4DA54E 49.98px, #4DA54E 66.64px, #00C1C0 66.64px, #00C1C0 83.3px,#4D4CFF 83.3px, #4D4CFF 100px, #824DA7 100px ,#824DA7 116.66px,#FF4D4D 116.66px);  background-size: 200%;
+    animation: bganimation 5s infinite;
+}
 @keyframes bganimation {
     0%{
       background-position: 0% 50%;
