@@ -261,15 +261,23 @@ mark {
     object-fit: cover;
 }
 
-.container .row {
+.container {
+    margin-bottom: 0;
+}
+.brand{
+    position: relative;
+    bottom: 130px;
     margin-bottom: 0;
 }
 
 .bg-color {
-    background-image: linear-gradient(125deg,#FD6E6A,#FFC600);  background-size: 400%;
-    animation: bganimation 15s infinite;
+    background-image: repeating-linear-gradient(45deg, #3D3D3D 0px,#FECF07 0px,#FECF07 30px, #3D3D3D 30px, #3D3D3D 60px);  background-size: 200%;
+    animation: bganimation 100s infinite;
 }
-
+.bg-color-small {
+    background-image: repeating-linear-gradient(45deg, #3D3D3D 0px,#FECF07 0px,#FECF07 30px, #3D3D3D 30px, #3D3D3D 60px);  background-size: 200%;
+    animation: bganimation 5s infinite;
+}
 @keyframes bganimation {
     0%{
       background-position: 0% 50%;
