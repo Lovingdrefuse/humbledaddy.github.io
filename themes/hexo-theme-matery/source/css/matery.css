@@ -261,7 +261,12 @@ mark {
     object-fit: cover;
 }
 
-.container .row {
+.container {
+    margin-bottom: 0;
+}
+.brand{
+    position: relative;
+    bottom: 130px;
     margin-bottom: 0;
 }
 
