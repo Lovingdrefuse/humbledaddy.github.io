@@ -261,7 +261,12 @@ mark {
     object-fit: cover;
 }
 
-.container .row {
+.container {
+    margin-bottom: 0;
+}
+.brand{
+    position: relative;
+    bottom: 130px;
     margin-bottom: 0;
 }
 
@@ -270,7 +275,7 @@ mark {
     animation: bganimation 100s infinite;
 }
 .bg-color-small {
-    background-image: repeating-linear-gradient(45deg, #3D3D3D 0px,#FECF07 0px,#FECF07 5px, #3D3D3D 5px, #3D3D3D 10px);  background-size: 200%;
+    background-image: repeating-linear-gradient(45deg, #3D3D3D 0px,#FECF07 0px,#FECF07 30px, #3D3D3D 30px, #3D3D3D 60px);  background-size: 200%;
     animation: bganimation 5s infinite;
 }
 @keyframes bganimation {
