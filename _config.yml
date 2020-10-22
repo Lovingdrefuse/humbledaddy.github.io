@@ -119,9 +119,6 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repository: https://github.com/HUMBLEDADDY/humbledaddy.github.io
-    branch: master
-  - type: git
-    repo: https://gitee.com/humbledaddy/blogofzane.git
-    branch: master
+  type: git
+  repository: https://github.com/HUMBLEDADDY/humbledaddy.github.io
+  branch: master
