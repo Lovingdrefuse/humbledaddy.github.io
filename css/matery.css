@@ -261,14 +261,10 @@ mark {
     object-fit: cover;
 }
 
-.container {
+.container .row{
     margin-bottom: 0;
 }
-.brand{
-    position: relative;
-    bottom: 130px;
-    margin-bottom: 0;
-}
+
 
 .bg-color {
     background-image: repeating-linear-gradient(45deg, #3D3D3D 0px,#FECF07 0px,#FECF07 30px, #3D3D3D 30px, #3D3D3D 60px);  background-size: 200%;
