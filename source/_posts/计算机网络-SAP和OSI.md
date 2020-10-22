@@ -27,13 +27,13 @@ TCP/IP 具有四层协议
 
 > （具体应用还是四层协议，没有这么麻烦，）
 
-![计算机网络体系结构](http://img.humbledaddy.xyz/picgo/IMG_0473.PNG)
+![计算机网络体系结构](<img src="https://raw.githubusercontent.com/HUMBLEDADDY/ImageHosting/master/img/20201021174526.png"/>)
 
 **只有物理层的连接才是真连接，其他层的连接都是靠软件实现的逻辑上的连接**
 
 ​ :computer:\- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -:computer:
 
-![数据在各层直接传递](http://img.humbledaddy.xyz/picgo/image-20201020172049726.png)
+![数据在各层直接传递](https://raw.githubusercontent.com/HUMBLEDADDY/ImageHosting/master/img/a.png)
 
 ## SWP(Service Access Point)服务访问点
 
@@ -42,9 +42,10 @@ TCP/IP 具有四层协议
 2. 协议数据单元 PDU（Protocol Data Unit）。OSI 模型把对等实体间传送信息的数据单元称为协议数据单元，并将（N）层的协议数据单元记为（N）PDU。（N）PDU 由两部分组成，即（N）用户数据［记为（N）UD］和（N）协议控制信息［记为（N）PCI］。如果某层的协议数据单元只用于控制，则该协议数据单元中的用户数据可省略，此时只有该层的 PCI。
 
 3. 接口数据单元 IDU（Interface Data Unit）。OSI 模型把相邻层实体通过层间服务访问点依次交互信息的数据单元称为接口数据单元，并将（N）层的接口数据单元记为（N）IDU。（N）IDU 也由两部分组成。其中，一部分是（N+1）实体与（N）实体交互的数据，称为接口数据［记为（N）ID］；另一部分是为了协调（N+1）实体与（N）实体的交互操作而附加的控制信息（如服务原语中的某些参数），这些拉制信息称为接口控制信息［记为（N）ICI］。由于接口控制信息只在交互信息通过服务访问点时才起作用，所以，当接口数据单元通过服务访问点后就可以将其取掉。
-   <img alt="SWP" src="http://img.humbledaddy.xyz/picgo/20201020165538.png" style="zoom: 67%;" />
+   <img alt="SWP" src="https://raw.githubusercontent.com/HUMBLEDADDY/ImageHosting/master/img/test.png" style="zoom: 67%;" />
 
 ## PDU SDU IDU 三者关系
 
-   <img src="http://img.humbledaddy.xyz/picgo/image-20201020170513189.png" alt="SDU在实体之间传递" style="zoom: 64%;" />
-上课的时候龙崽想了一个比较恰当的比方，最开始的data(最初的SD)就是一块洋葱芯🧅，随着一层一层实体传递，没传递一层就给洋葱芯裹上一层洋葱皮(PCI)🧅，最后到第0层也就是物理层的时候就是一个洋葱🧅，然后通过物理管道，丢雷老母~🧅
+   <img src="https://raw.githubusercontent.com/HUMBLEDADDY/ImageHosting/master/img/test1.png" alt="SDU在实体之间传递" style="zoom: 64%;" />
+
+上课的时候龙崽想了一个比较恰当的比方，最开始的 data(最初的 SD)就是一块洋葱芯 🧅，随着一层一层实体传递，没传递一层就给洋葱芯裹上一层洋葱皮(PCI)🧅，最后到第 0 层也就是物理层的时候就是一个洋葱 🧅，然后通过物理管道，丢雷老母~🧅
